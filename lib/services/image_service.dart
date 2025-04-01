@@ -16,6 +16,6 @@ class ImageService {
         return data['results'][0]['urls']['regular'];
       }
     }
-    return null; // Return null if no image found
+    return null; 
   }
 }

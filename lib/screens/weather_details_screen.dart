@@ -28,7 +28,6 @@ class WeatherDetailsScreen extends StatelessWidget {
                           )
                         : Container(color: Colors.blueAccent),
                     
-                    // Gradient overlay for readability
                     Positioned.fill(
                       child: Container(
                         decoration: BoxDecoration(
@@ -36,15 +35,14 @@ class WeatherDetailsScreen extends StatelessWidget {
                             begin: Alignment.topCenter,
                             end: Alignment.bottomCenter,
                             colors: [
-                              Colors.black.withOpacity(0.3), // Light at the top
-                              Colors.black.withOpacity(0.6), // Dark at the bottom
+                              Colors.black.withOpacity(0.3), 
+                              Colors.black.withOpacity(0.6), 
                             ],
                           ),
                         ),
                       ),
                     ),
 
-                    // Weather details
                     Center(
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
